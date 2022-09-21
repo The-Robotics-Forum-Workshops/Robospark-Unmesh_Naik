@@ -1,0 +1,66 @@
+#include<bits/stdc++.h>
+using namespace std;
+bool isvalid(string s){
+    int a=s.size();
+ 
+    stack<char>st;
+    bool ans =true;
+    for (int i=0;i<a;i++){
+        if(s[i]=='{' || s[i]=='(' || s[i]=='['){
+            st.push(s[i]);
+        }
+        else if( s[i]==')'){
+            if (!st.empty() and st.top()=='('){
+                st.pop();
+ 
+            }
+            else{
+                ans=false;
+                break;
+            }
+       
+        }
+        else if(s[i]==']'){
+            if (!st.empty() and st.top()=='['){
+                st.pop();
+ 
+            }
+            else{
+                ans=false;
+                break;
+            }
+       
+        }
+        else if(s[i]=='}'){
+            if (!st.empty() and st.top()=='{'){
+                st.pop();
+ 
+            }
+            else{
+                ans=false;
+                break;
+            }
+       
+        }
+int main(){
+    string s="{]}";
+    if (isvalid(s)){
+        cout<<"valid"<<endl;
+ 
+    }
+    else{
+        cout<<"in"<<endl;
+    }
+    return 0;
+}
+
+
+
+
+    }
+    if (!st.empty()){
+        return false;
+    }
+    return ans;
+ 
+}

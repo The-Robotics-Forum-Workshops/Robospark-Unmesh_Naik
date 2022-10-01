@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRF RESUME</title>
+    <style>
+        @media (max-width:60rem){
+    
+        .profile{
+            
+        }
+        .inform{
+            position: relative;
+        }
+    }
+        .profile {
+            margin-left: 2%;
+            float: left;
+            height: 200px;
+            width: 200px;
+            border-radius: 150px;
+        }
+
+        .inform {
+            padding-top: 45px;
+            padding-left: 250px;
+
+
+        }
+
+        #name {
+            margin-bottom: -20px;
+        }
+
+        .left {
+            float: left;
+            width: 27%;
+            background-color: rgb(15, 17, 17);
+            margin-left: 38px;
+        }
+
+        .right {
+            float: right;
+            width: 70%;
+            /* margin-left: 50%; */
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+
+
+        /* nav >ul{ margin: 0 auto; width: 80px; } */
+        nav ul li {
+            display: block;
+            float: left;
+            margin-left: -45px;
+            position: relative;
+        }
+
+        nav ul a {
+
+
+            padding: 10px 10px;
+        }
+
+        nav ul a:hover {
+            background: rgb(153, 94, 0);
+        }
+
+        nav ul li ul {
+            display: none;
+            position: inherit;
+            background: #333;
+
+        }
+
+        nav ul li:hover>ul {
+            display: block;
+        }
+
+        nav ul li a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div>
+        <img src="./shin.png" alt="" class='profile'>
+    </div>
+    <div class="inform">
+        <h1 id="name">HARSH AMBEKAR</h1>
+        <p> COMPUTER ARCHITECH</p>
+
+
+    </div>
+
+    <div style="padding-top: 75px;">
+        <div class="left">
+            <h1>INFORMATION</h1>
+            <nav>
+                <ul>
+                    <li class="Lev-1">
+                        <a href="">PROJECTS</a>
+                        <ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus rem sed,
+                                voluptas quam iste blanditiis eveniet sint modi obcaecati!</p>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto sapiente,
+                                tempore molestias voluptatem eum.</p>
+                        </ul>
+
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div style="padding-top: 30px;">
+                <nav>
+                    <ul>
+                        <li class="Lev-1">
+                            <a href="">SPORTS</a>
+                            <ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus rem
+                                    sed,
+                                    voluptas quam iste blanditiis eveniet sint modi obcaecati!</p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto
+                                    sapiente,
+                                    tempore molestias voluptatem eum.</p>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div style="padding-top: 30px;">
+                <nav>
+                    <ul>
+                        <li class="Lev-1">
+                            <a href="">EDUCATION</a>
+                            <ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus rem
+                                    sed,
+                                    voluptas quam iste blanditiis eveniet sint modi obcaecati!</p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto
+                                    sapiente,
+                                    tempore molestias voluptatem eum.</p>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>this will be on right</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur quisquam maiores facilis
+                tenetur, illo eveniet architecto, velit consectetur odio illum explicabo. Ea natus exercitationem
+                mollitia odio. Reiciendis voluptas nemo non iste dolore aliquid architecto maxime sunt dolor quo officia
+                quidem asperiores, animi qui quas explicabo ducimus tempora accusamus cum nam ipsa illum assumenda ipsum
+                vitae? Sit temporibus ipsam nam libero eligendi recusandae voluptatibus rem blanditiis, suscipit
+                accusantium, dolorum odio reprehenderit in nisi? Vero incidunt voluptatum sunt, fuga animi aut illo,
+                distinctio quaerat magnam esse vel iusto, perspiciatis quas eius harum reprehenderit sint reiciendis
+                saepe sit? Porro doloremque nesciunt repellat?</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
